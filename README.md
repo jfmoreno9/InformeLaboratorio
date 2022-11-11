@@ -1,77 +1,90 @@
-# InformeLaboratorio
+                                              **UNIVERSIDAD DE LAS FUERZAS ARMADAS
+                                                            "ESPE"**
+                                                            
+![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_ESPEOk.png)
+
+INTEGRANTES
+
+*Gisela Estefania Proaño Caizaluisa
+
+*Mike Josue Rodríguez Tomaselli
+
+*Junior Fernando Moreno Núñez
 
 
 1. OBJETIVOS
 
-Los objetivos deben responder claramente la pregunta ¿Qué investigar? 
-El objetivo de la investigación es el enunciado claro y preciso de las metas que se persiguen. En los objetivos de la investigación se detallan las acciones en las que debe emprender el investigador para contestar a las preguntas planteadas en la formulación y sistematización del problema y tiene como propósito el direccionar la investigación. 
+  Explicar y demostrar experimentalmente la Ley de Kirchhoff de Voltajes y la Ley de Kirchhoff de Corrientes.
 
-Los objetivos generales dan origen a objetivos específicos que indica lo que se pretende realizar en cada una de las etapas de la investigación. La suma de los objetivos específicos es igual al objetivo general y por tanto a los resultados esperados de la investigación. Conviene notar que son los objetivos específicos los que se investigan y no el objetivo general, ya que este se logra de los resultados. 
+1.2.	Objetivos específicos
 
-Los objetivos de investigación deben cumplir ciertas características: 
-* Deben ser concretos, cuantificables, verificables 
-* Deben estar redactados utilizando verbos en infinitivo 
-* Deben ser alcanzables por el investigador. 
-* Tienen que estar ligados con el tiempo. 
-
-
-Deben presentar directa relación con el tema de investigación y entre sí mismos. Todo trabajo de investigación es evaluado por el logro de los objetivos mediante un proceso sistemático, los cuales deben haber sido previamente señalados y seleccionados al comienzo de la investigación. La sistematización hace posible el planeamiento de estrategias válidas para el logro de objetivos. Por esta razón los objetivos tienen que ser revisados en cada una de las etapas del proceso; el no hacerlo puede ocasionar fallas en la investigación con la misma intensidad en que se presentan fallas en los objetivos. 
-
-Al finalizar la investigación, los objetivos han de ser identificables con los resultados; es decir, toda la investigación deberá estar respondiendo a los objetivos propuestos. 
-
-Considerar la Taxonomía de Bloom
+  •	Aprender sobre el funcionamiento de los componentes eléctricos, teniendo en cuenta su voltaje e intensidad
+  
+  •	Comprender el funcionamiento del multímetro digital, con su utilidad.
 
 2. MARCO TEÓRICO 
 
-Este punto requiere que el estudiante realice una amplia consulta bibliográfica sobre el tema de su trabajo.
+  Uno de los métodos ampliamente utilizados en el análisis de circuitos eléctricos son las Leyes de Kirchhoff de voltaje y corriente, ya que con ellas se puede determinar el valor de voltaje o corriente en cualquier elemento que forme parte del circuito. Las Leyes de Kirchhoff se enuncian a continuación:
+![](https://d20ohkaloyme4g.cloudfront.net/img/document_thumbnails/0c3066c4b27584be2732d5660e4c76e2/thumb_1200_1698.png)
 
-Se describe la teoría o conjunto teórico apropiado con la cual el investigador enfrenta su proyecto y la realidad dentro del cual se ubica el problema de investigación, incluye:
-* Describir la actual relación entre el problema enunciado y el sistema o sistemas teóricos/conceptuales que pueden guiarlo.
-* Dejar claramente especificada la relación entre la teoría que guía la investigación y la realidad que se percibe como problema de investigación.
-* Conceptualizar el problema en la forma de un modelo, útil para clarificar los conceptos y relaciones conceptuales.
-* Señalar la forma en que la investigación actual enriquece, amplía y profundiza el conocimiento teórico, sustantivo y metodológico acumulado en estudios previos.
+Ademas de la complementacion con la Ley de Ohm
+![](https://www.mindomo.com/es/image/9901b6bbe00f4531a2867d4ca74423d1/mind-map-la%20Ley%20de%20ohm%20y%20Ley%20de%20Kirchhoff.%20-%20Mind%20Map.png)
 
-Para su desarrollo debe evitarse en lo posible redactar párrafos continuos de texto, para lo cual se debe utilizar  mentefactos, cuadro comparativos, esquemas o mapas conceptuales
-
-El contenido debe ser desarrollado.
 
 3. EXPLICACIÓN DEL PROCEDIMIENTO
 
-En este punto se debe explicar cómo funcionan la implementación del circuito y los cálculos de respaldo.
+  Haciendo uso del diagrama esquematico procedemos armar el circuito colocando las resistencias, fuente de poder de 5V y haremos uso del multimetro deigital para poder medir.
 
-Los diagramas hacen referencia a una representación visual de lo que se ha desarrollado enfocado al software y al hardware. Los diagramas son:
-* Diagramas de bloques.
-* Diagramas UML. (casos de uso-clase)
-* Diagramas eléctricos.
-* Diagramas esquemáticos.
+[![Diagramas.jpg](https://i.postimg.cc/fL2MstNS/Diagramas.jpg)](https://postimg.cc/WFkB64ts)
 
-Adicionalmente para el caso de diagramas eléctricos se debe hacer la explicación de los circuitos.
+  Para la medición del voltaje en cada una de las resistencias debemos colocar el multimetro en PARALELO, es decir en que cada pata del multimetro en cada pata de la resistencia y obtendriamos los valores simulados como se muestra a continuación:
 
-![](https://github.com/doalulema/Informe/blob/master/img/Diagrama1.jpg)
+[![Medicion-resistencias.jpg](https://i.postimg.cc/3Rw95gk5/Medicion-resistencias.jpg)](https://postimg.cc/zL9TTHw0)
 
-![](https://github.com/doalulema/Informe/blob/master/img/Diagrama2.jpg)
+  Para la medición de la intensidad en cada una de las resistencias debemos colocar el multimetro en SERIE, para ello debemos sacar una de las patas de la resistencia fuera de la conexión del circuito y conectamos una de las patas del multimetro a la pata que esta afuera, despues de ello conectamos la otra pata del multimetro al orificio en donde estaba la resistencia, encaso de obtener un resoltado diferente de mA procedemos con la transformación
 
-![](https://github.com/doalulema/Informe/blob/master/img/Diagrama4.jpg)
+[![medicion-intensidad.jpg](https://i.postimg.cc/XNd4BF2k/medicion-intensidad.jpg)](https://postimg.cc/c6xVVKGv)
 
 
 4. RESPUESTA A INTERROGANTES Y CALCULO DEL ERROR
 
-En este punto se contestará todo lo planteado en las guías.
+***TABLA DE VALORES CALCULADOS Y MEDIDOS***
+[![Diapositiva1.jpg](https://i.postimg.cc/g0Y2VPcs/Diapositiva1.jpg)](https://postimg.cc/68mKKgv4)
+
+Como ya se menciono el valor simulado la obtuvimos midiendo con el multimetro y el valor calculado se obtiene del calculo con la intensidad
+
+***FUNCIONAMIENTO DE CADA TRAYECTORIA, CON VALORES Y SUMATORIAS CON RESPECTO AL VOLTAJE***
+
+[![Diapositiva2.jpg](https://i.postimg.cc/V6NfrBsk/Diapositiva2.jpg)](https://postimg.cc/NyWqZXr3)
+
+***FUNCIONAMIENTO DE CADA NODO, CON VALORES Y SUMATORIAS CON RESPECTO DE INTENSIDAD***
+
+[![Diapositiva3.jpg](https://i.postimg.cc/TPNwcH4D/Diapositiva3.jpg)](https://postimg.cc/yJ9s1nB1)
+
+***CALCULO DEL ERROR***
+
+  Se obtiene de la formula en donde Valor teorico es el valor calculado y el valor medido es el valor simulado, tomando mucho en cuenta que el resultado debe ser con valor absoluto para que sea positivo.
+
+[![Diapositiva4.jpg](https://i.postimg.cc/GmNVJFjp/Diapositiva4.jpg)](https://postimg.cc/cvRFd82q)
+
 
 5. VIDEO
 
-Aqui den estar el link de youtube de los videos en los que se explique el funcionamiento y la implementación del proyecto.
-En el video se debe explicar 4 ejercicios o problemas.
+https://www.youtube.com/watch?v=EdnQ_CeDYOs
 
 
 6. CONCLUSIONES
 
-Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
+  La ley de Kirchhoff nos ayuda para conocer diferentes valores como la resistencia total o de alguna resistencia concreta, complementándola con la Ley de Ohm que juntas nos sirven para poder encontrar intensidad, resistencia o voltaje.
+
+  Resulta de suma importancia conocer los diferentes tipos de conexión que se deben llevar a cabo para poder medir elementos eléctricos, por ejemplo, las resistencias que al momento de medir su voltaje lo hacemos en paralelo, pero al medir su intensidad debemos hacerlo en serie, y esta practica nos ayudo a poder fortalecer ese conocimiento. 
 
 
 7. BIBLIOGRAFÍA
 
-Emplear normas APA para el informe e IEEE para el artículo
+Bustamante. (s.f.). studocu. Obtenido de studocu: https://www.studocu.com/ec/document/universidad-central-del-ecuador/fisica/fundamento-conceptual-5/12264113
+
+Portillo, N. (2021). mindomo. Obtenido de https://www.mindomo.com/es/mindmap/la-ley-de-ohm-y-ley-de-kirchhoff-9901b6bbe00f4531a2867d4ca74423d1
 
 
 RUBRICA
