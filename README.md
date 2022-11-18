@@ -1,78 +1,69 @@
-# InformeLaboratorio
+# InformeLaboratorio #2
+                              **UNIVERSIDAD DE LAS FUERZAS ARMADAS
+                                              ESPE**
+Integrantes:
 
+Gisela Estefania Proaño Caizaluisa
+
+Junior Fernando Moreno Nuñez
+
+Mike Josue Rodríguez Tomaselli
 
 1. OBJETIVOS
 
-Los objetivos deben responder claramente la pregunta ¿Qué investigar? 
-El objetivo de la investigación es el enunciado claro y preciso de las metas que se persiguen. En los objetivos de la investigación se detallan las acciones en las que debe emprender el investigador para contestar a las preguntas planteadas en la formulación y sistematización del problema y tiene como propósito el direccionar la investigación. 
+Objetivo general
 
-Los objetivos generales dan origen a objetivos específicos que indica lo que se pretende realizar en cada una de las etapas de la investigación. La suma de los objetivos específicos es igual al objetivo general y por tanto a los resultados esperados de la investigación. Conviene notar que son los objetivos específicos los que se investigan y no el objetivo general, ya que este se logra de los resultados. 
+A través de la práctica, comprender de mejor manera la definición de circuito cerrado, en que consiste una malla, y como está constituida la Ley de voltaje de Kirchhoff 
 
-Los objetivos de investigación deben cumplir ciertas características: 
-* Deben ser concretos, cuantificables, verificables 
-* Deben estar redactados utilizando verbos en infinitivo 
-* Deben ser alcanzables por el investigador. 
-* Tienen que estar ligados con el tiempo. 
+Objetivos específicos:
 
-
-Deben presentar directa relación con el tema de investigación y entre sí mismos. Todo trabajo de investigación es evaluado por el logro de los objetivos mediante un proceso sistemático, los cuales deben haber sido previamente señalados y seleccionados al comienzo de la investigación. La sistematización hace posible el planeamiento de estrategias válidas para el logro de objetivos. Por esta razón los objetivos tienen que ser revisados en cada una de las etapas del proceso; el no hacerlo puede ocasionar fallas en la investigación con la misma intensidad en que se presentan fallas en los objetivos. 
-
-Al finalizar la investigación, los objetivos han de ser identificables con los resultados; es decir, toda la investigación deberá estar respondiendo a los objetivos propuestos. 
-
-Considerar la Taxonomía de Bloom
+•	Aplicar y entender los términos de circuito cerrado, mallas y la ley de voltaje de Kirchhoff.
 
 2. MARCO TEÓRICO 
 
-Este punto requiere que el estudiante realice una amplia consulta bibliográfica sobre el tema de su trabajo.
+[![Diapositiva7.jpg](https://i.postimg.cc/7695hDrT/Diapositiva7.jpg)](https://postimg.cc/k6VJY04n)
 
-Se describe la teoría o conjunto teórico apropiado con la cual el investigador enfrenta su proyecto y la realidad dentro del cual se ubica el problema de investigación, incluye:
-* Describir la actual relación entre el problema enunciado y el sistema o sistemas teóricos/conceptuales que pueden guiarlo.
-* Dejar claramente especificada la relación entre la teoría que guía la investigación y la realidad que se percibe como problema de investigación.
-* Conceptualizar el problema en la forma de un modelo, útil para clarificar los conceptos y relaciones conceptuales.
-* Señalar la forma en que la investigación actual enriquece, amplía y profundiza el conocimiento teórico, sustantivo y metodológico acumulado en estudios previos.
+[![Diapositiva8.jpg](https://i.postimg.cc/66H7N9hk/Diapositiva8.jpg)](https://postimg.cc/PNwfWn9y)
 
-Para su desarrollo debe evitarse en lo posible redactar párrafos continuos de texto, para lo cual se debe utilizar  mentefactos, cuadro comparativos, esquemas o mapas conceptuales
-
-El contenido debe ser desarrollado.
+[![otra.jpg](https://i.postimg.cc/RZ8tcv8r/otra.jpg)](https://postimg.cc/5XBjJWbp)
 
 3. EXPLICACIÓN DEL PROCEDIMIENTO
 
-En este punto se debe explicar cómo funcionan la implementación del circuito y los cálculos de respaldo.
+Con ayuda de nuestro diagrama esquematico, procedemos a armar el circuito en la plataforma, pero dejando mas espacio entre componentes dado que vamos a conectar el multimetro digital.
 
-Los diagramas hacen referencia a una representación visual de lo que se ha desarrollado enfocado al software y al hardware. Los diagramas son:
-* Diagramas de bloques.
-* Diagramas UML. (casos de uso-clase)
-* Diagramas eléctricos.
-* Diagramas esquemáticos.
+[![Diapositiva1.jpg](https://i.postimg.cc/3NDQ6C1J/Diapositiva1.jpg)](https://postimg.cc/LgRWgPGr)
 
-Adicionalmente para el caso de diagramas eléctricos se debe hacer la explicación de los circuitos.
+Para medir la intensidad de la malla colocamos el multimetro en lugar de la conexión que tenia el cable se suministro de energía y el de la resistencia y volvemos a realizar lo mismo para cada una de las mallas como se indica a continuación.
 
-![](https://github.com/doalulema/Informe/blob/master/img/Diagrama1.jpg)
+[![Diapositiva2.jpg](https://i.postimg.cc/63FpyQ1q/Diapositiva2.jpg)](https://postimg.cc/G8JCfbRn)
 
-![](https://github.com/doalulema/Informe/blob/master/img/Diagrama2.jpg)
+[![Diapositiva3.jpg](https://i.postimg.cc/MHyqHmQ3/Diapositiva3.jpg)](https://postimg.cc/BPQdwDN2)
 
-![](https://github.com/doalulema/Informe/blob/master/img/Diagrama4.jpg)
-
+[![Diapositiva4.jpg](https://i.postimg.cc/QdCwnqML/Diapositiva4.jpg)](https://postimg.cc/K1X01BLQ)
 
 4. RESPUESTA A INTERROGANTES Y CALCULO DEL ERROR
 
-En este punto se contestará todo lo planteado en las guías.
+Para el calculo analitico debemos usar la ley de Kirchhoff ya que estaremos buscando como interrogantes la i1,i2,i3 que vendrian a ser las intensidades de mallas q anteriormente ya hemos medido.
+
+[![estasi.jpg](https://i.postimg.cc/XqHq486M/estasi.jpg)](https://postimg.cc/RJt4Tw0G)
+
+[![Diapositiva6.jpg](https://i.postimg.cc/gcMKBbLJ/Diapositiva6.jpg)](https://postimg.cc/yWZ9k5P4)
 
 5. VIDEO
 
-Aqui den estar el link de youtube de los videos en los que se explique el funcionamiento y la implementación del proyecto.
-En el video se debe explicar 4 ejercicios o problemas.
-
+https://youtu.be/FJU1AbKoB5E
 
 6. CONCLUSIONES
 
-Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
+Al implementar este informe, es posible comprender el análisis de redes y resolver problemas de circuitos con un conocimiento previo de las leyes de Kirchhoff. Es importante comprender estas leyes y polaridad para realizar cálculos analíticos. Lo más importante en este esquema es poder ejecutarlo físicamente, porque a través de esto aprendieron a operar físicamente el instrumento
 
 
 7. BIBLIOGRAFÍA
 
-Emplear normas APA para el informe e IEEE para el artículo
+Floyd, T. L. (2007). Principios de Circuitos Eléctricos (Octava ed.). (L. M. Castillo, Ed.) México, México: Pearson Educación. Obtenido de http://media.espora.org/mgoblin_media/media_entries/1455/Principios_de_circuitos_electricos.pdf
 
+
+KhanAcademy. (2022). Obtenido de KhanAcademy: https://es.khanacademy.org/science/physics/circuits-topic/circuits-resistance/a/ee-kirchhoffs-laws
 
 RUBRICA
 
